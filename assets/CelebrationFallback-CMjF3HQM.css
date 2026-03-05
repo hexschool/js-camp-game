@@ -1,0 +1,1 @@
+.confetti-particle[data-v-9de4abfc]{position:absolute;top:-10px;width:8px;height:16px;border-radius:2px;animation:confetti-fall-9de4abfc linear infinite;opacity:.8}@keyframes confetti-fall-9de4abfc{0%{transform:translateY(-10px) rotate(0);opacity:0}10%{opacity:.8}90%{opacity:.8}to{transform:translateY(100vh) rotate(720deg);opacity:0}}

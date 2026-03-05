@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/js-camp-game/images/coach/normal.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>菜鳥後端 JS 實戰試煉</title>
+    <script>
+      // GitHub Pages SPA redirect handler
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/js-camp-game/assets/index-BL72paI3.js"></script>
+    <link rel="stylesheet" crossorigin href="/js-camp-game/assets/index-AVMvYuGx.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
